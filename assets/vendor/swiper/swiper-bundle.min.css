@@ -45,7 +45,7 @@
     box-sizing: content-box;
 }
 
-.swiper-android.swiper-slide, .swiper-wrapper {
+.swiper-android .swiper-slide, .swiper-wrapper {
     transform: translate3d(0px, 0, 0)
 }
 
@@ -175,7 +175,8 @@
     width: 1px;
     height: var(--swiper-virtual-size)
 }
-: root {
+
+:root {
     --swiper-navigation-size: 44px
 }
 .swiper-button-next, .swiper-button-prev {
