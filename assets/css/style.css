@@ -1164,10 +1164,10 @@ section .container {
 --------------------------------------------------------------*/
 .credits {
   position: fixed;
-  right: 20px;
+  right: 0;
   left: 0;
   bottom: 0;
-  padding: 15px;
+  padding: 15px 35px 15px 15px;
   text-align: right;
   font-size: 13px;
   color: #fff;
