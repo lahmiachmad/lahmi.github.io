@@ -1008,10 +1008,8 @@ section .container {
 .contact .info-box {
   color: #444444;
   padding: 20px;
-  margin-top: 1.5rem!important;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
-
 }
 
 .contact .info-box i.bx {
