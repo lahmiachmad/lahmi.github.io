@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-  color: #0055FF;
+  color: #699AFF;
   text-decoration: none;
 }
 
@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Caveat", sans-serif;
   font-size: 50px;
   color: #fff;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
 
@@ -68,19 +69,25 @@ font-size: 18px;
 # Scrollbar
 --------------------------------------------------------------*/
 ::-webkit-scrollbar {
-		width: 5px;
-		}
+	width: 5px;}
+
 ::-webkit-scrollbar-button {
 	background: #111;
-	}
+	height: 0;}
+	
 ::-webkit-scrollbar-track {
     background: #111;}
 	
 ::-webkit-scrollbar-track-piece {
 	background: #111;}
 	
-::-webkit-scrollbar-thumb        {background: #252525}
-::-webkit-scrollbar-corner       { /* 6 */ }
+::-webkit-scrollbar-thumb {
+	background: #252525}
+	
+::-webkit-scrollbar-corner {
+	width: 0;
+	background: rgba(0,0,0,0);
+ }
 ::-webkit-resizer                { /* 7 */ }
 
 
@@ -129,9 +136,8 @@ font-size: 18px;
 }
 
 #header h2 span {
-  color: #fff;
-  border-bottom: 2px solid #0055FF;
-  padding-bottom: 6px;
+  color: #0055FF;
+  font-weight: bold;
 }
 
 #header img {
@@ -931,7 +937,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #0055FF;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -968,8 +974,8 @@ section .container {
   top: 0;
   bottom: 0;
   overflow-y: auto;
+  
 }
-
 .portfolio-details .container {
   padding-top: 20px;
   padding-bottom: 40px;
@@ -1214,5 +1220,5 @@ section .container {
 }
 
 .credits a:hover {
-  color: #A600FF;
+  color: #699AFF;
 }
