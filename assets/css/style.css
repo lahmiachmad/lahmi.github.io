@@ -36,23 +36,25 @@ body::before {
 }
 
 a {
-  color: #a13dca;
+  color: #0055FF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #a13dca;
+  color: #0055FF;
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
 }
+
+.motto {
+  font-family: "Caveat", sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
 
 p {
 text-align: justify;
@@ -61,6 +63,30 @@ text-align: justify;
 .blog {
 font-size: 18px;
 }
+
+/*--------------------------------------------------------------
+# Scrollbar
+--------------------------------------------------------------*/
+::-webkit-scrollbar {
+		width: 5px;
+		}
+::-webkit-scrollbar-button {
+	background: #111;
+	}
+::-webkit-scrollbar-track {
+    background: #111;}
+	
+::-webkit-scrollbar-track-piece {
+	background: #111;}
+	
+::-webkit-scrollbar-thumb        {background: #252525}
+::-webkit-scrollbar-corner       { /* 6 */ }
+::-webkit-resizer                { /* 7 */ }
+
+
+/*--------------------------------------------------------------
+# Scrollbar End
+--------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
@@ -99,12 +125,12 @@ font-size: 18px;
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
 }
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #a13dca;
+  border-bottom: 2px solid #0055FF;
   padding-bottom: 6px;
 }
 
@@ -133,7 +159,7 @@ font-size: 18px;
 }
 
 #header .social-links a:hover {
-  background: #a13dca;
+  background: #0055FF;
 }
 
 @media (max-width: 992px) {
@@ -251,7 +277,7 @@ font-size: 18px;
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #a13dca;
+  background-color: #0055FF;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -364,7 +390,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.925);
   padding: 30px;
 }
 
@@ -395,7 +421,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #a13dca;
+  background: #0055FF;
   margin: 4px 10px;
 }
 
@@ -414,7 +440,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #a13dca;
+  color: #0055FF;
 }
 
 .about-me .content ul {
@@ -435,7 +461,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #a13dca;
+  color: #0055FF;
   line-height: 0;
 }
 
@@ -466,7 +492,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #a13dca;
+  color: #0055FF;
   border-radius: 50px;
   line-height: 0;
 }
@@ -518,7 +544,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #a13dca;
+  background-color: #0055FF;
 }
 
 /*--------------------------------------------------------------
@@ -629,7 +655,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #a13dca;
+  background-color: #0055FF;
 }
 
 /*--------------------------------------------------------------
@@ -655,7 +681,7 @@ section .container {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #a13dca;
+  color: #0055FF;
   margin-bottom: 10px;
 }
 
@@ -688,8 +714,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #a13dca;
-  border: 2px solid #a13dca;
+  background: #0055FF;
+  border: 2px solid #0055FF;
 }
 
 /*--------------------------------------------------------------
@@ -706,7 +732,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #a13dca;
+  background: #0055FF;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -751,8 +777,8 @@ section .container {
 }
 
 .blog .icon-box:hover {
-  background: #a13dca;
-  border-color: #a13dca;
+  background: #0055FF;
+  border-color: #0055FF;
 }
 
 .blog .icon-box:hover .icon {
@@ -760,7 +786,7 @@ section .container {
 }
 
 .blog .icon-box:hover .icon i {
-  color: #a13dca;
+  color: #0055FF;
 }
 
 .blog .icon-box:hover .icon::before {
@@ -805,7 +831,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #a13dca;
+  background: #0055FF;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -999,7 +1025,7 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #a13dca;
+  background-color: #0055FF;
 }
 
 /*--------------------------------------------------------------
@@ -1051,7 +1077,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #a13dca;
+  color: #0055FF;
 }
 
 .contact .php-email-form {
@@ -1075,7 +1101,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #a13dca;
+  background: #0055FF;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1095,7 +1121,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #a13dca;
+  border: 3px solid #0055FF;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1137,7 +1163,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #a13dca;
+  background: #0055FF;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1183,10 +1209,10 @@ section .container {
 }
 
 .credits a {
-  color: #a13dca;
+  color: #0055FF;
   transition: 0.3s;
 }
 
 .credits a:hover {
-  color: #fff;
+  color: #A600FF;
 }
