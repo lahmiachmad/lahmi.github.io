@@ -69,14 +69,14 @@ font-size: 18px;
 # Scrollbar
 --------------------------------------------------------------*/
 ::-webkit-scrollbar {
-	width: 10px;}
+	width: 5px;}
 
 ::-webkit-scrollbar-button {
 	background: #111;
 	height: 0;}
 	
 ::-webkit-scrollbar-track {
-    background: #111;}
+    background: #fff;}
 	
 ::-webkit-scrollbar-track-piece {
 	background: #111;}
