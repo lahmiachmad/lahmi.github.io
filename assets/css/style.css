@@ -970,7 +970,7 @@ section .container {
   background: rgba(0, 0, 0, 0.8);
   position: fixed;
   left: 0;
-  right: -50px;
+  right: 0;
   top: 0;
   bottom: 0;
   overflow-y: auto;
