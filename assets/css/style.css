@@ -79,10 +79,10 @@ font-size: 18px;
     background: #111;}
 	
 ::-webkit-scrollbar-track-piece {
-	background: #111;}
+	background: #fff;}
 	
 ::-webkit-scrollbar-thumb {
-	background: #fff}
+	background: #252525}
 	
 ::-webkit-scrollbar-corner {
 	width: 0;
