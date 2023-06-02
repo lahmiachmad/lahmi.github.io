@@ -72,7 +72,7 @@ font-size: 18px;
 	width: 5px;}
 
 ::-webkit-scrollbar-button {
-	background: #111;
+	background: #fff;
 	height: 0;}
 	
 ::-webkit-scrollbar-track {
