@@ -72,11 +72,11 @@ font-size: 18px;
 	width: 5px;}
 
 ::-webkit-scrollbar-button {
-	background: #fff;
+	background: #111;
 	height: 0;}
 	
 ::-webkit-scrollbar-track {
-    background: #fff;}
+    background: #111;}
 	
 ::-webkit-scrollbar-track-piece {
 	background: #111;}
@@ -970,7 +970,7 @@ section .container {
   background: rgba(0, 0, 0, 0.8);
   position: fixed;
   left: 0;
-  right: 0;
+  right: -50px;
   top: 0;
   bottom: 0;
   overflow-y: auto;
